@@ -1,0 +1,34 @@
+@media (max-width: 1300px) {
+  .booking-window {
+    width: 90%;
+  }
+}
+
+@media (max-width: 770px) {
+  .booking-wrapper {
+    grid-template-columns: 1fr;
+    background-image: none;
+  }
+
+  .booking-window {
+    width: 100%;
+  }
+
+  .overview-wrapper {
+    display: none;
+  }
+
+  .active-window .service-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .service-wrapper .submit {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .service-wrapper .submit button {
+    width: 20%;
+    padding: 8px 0;
+  }
+}
