@@ -76,6 +76,7 @@
   width: 90%;
   border: solid 1px #666;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 .service-wrapper .menu-wrapper .select {
@@ -103,7 +104,6 @@
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   background-color: #fff;
-  text-transform: capitalize;
 }
 
 .service-wrapper .menu-wrapper .options > div {
