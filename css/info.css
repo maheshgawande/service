@@ -1,0 +1,16 @@
+/* info image */
+.info-img-wrapper {
+  background-color: aquamarine;
+}
+
+/* info content */
+.info-content-wrapper {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-content {
+  border: solid 1px red;
+}
