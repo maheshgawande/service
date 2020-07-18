@@ -1,3 +1,14 @@
 footer {
   background-color: #000;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer button {
+  color: #fff;
+  border: none;
+  background-color: transparent;
 }
