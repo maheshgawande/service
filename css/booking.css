@@ -1,18 +1,9 @@
-.booking-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* background-image: url("./img/main-cover.jpg"); */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* window */
 .booking-window-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: palevioletred;
+  /* background-color: palevioletred; */
 }
 
 .booking-window {
@@ -156,5 +147,5 @@
 
 /* overview wrapper */
 .overview-wrapper {
-  background-color: peru;
+  /* background-color: peru; */
 }

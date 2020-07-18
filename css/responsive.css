@@ -1,3 +1,12 @@
+@media (min-width: 771px) {
+  .booking-wrapper {
+    /* background-image: url("../img/main-cover.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 @media (max-width: 1300px) {
   .booking-window {
     width: 90%;
@@ -5,9 +14,8 @@
 }
 
 @media (max-width: 770px) {
-  .booking-wrapper {
+  section {
     grid-template-columns: 1fr;
-    background-image: none;
   }
 
   .booking-window {
