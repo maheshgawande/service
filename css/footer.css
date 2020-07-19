@@ -25,7 +25,7 @@ footer .row {
   flex-wrap: wrap;
 }
 
-footer .row > div {
+footer .row .col {
   margin-right: 32px;
 }
 
