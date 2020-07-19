@@ -1,4 +1,8 @@
 @media (min-width: 771px) {
+  html {
+    overflow-x: hidden;
+  }
+
   .booking-wrapper {
     /* background-image: url("../img/main-cover.jpg"); */
     background-position: center;
@@ -14,6 +18,11 @@
 }
 
 @media (max-width: 770px) {
+  html,
+  body {
+    overflow-x: auto;
+  }
+
   section {
     grid-template-columns: 1fr;
   }
@@ -38,5 +47,9 @@
   .service-wrapper .submit button {
     width: 20%;
     padding: 8px 0;
+  }
+
+  footer {
+    padding: 32px 16px;
   }
 }

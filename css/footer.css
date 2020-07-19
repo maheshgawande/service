@@ -1,6 +1,9 @@
 footer {
-  background-color: #000;
+  min-height: var(--primary-height);
+  padding: 64px;
+  text-transform: capitalize;
   color: #fff;
+  background-color: #000;
 }
 
 footer a {
@@ -10,5 +13,112 @@ footer a {
 footer button {
   color: #fff;
   border: none;
+  text-transform: capitalize;
   background-color: transparent;
+}
+
+footer .row {
+  padding: 32px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  row-gap: 32px;
+  flex-wrap: wrap;
+}
+
+footer .row > div {
+  margin-right: 32px;
+}
+
+footer .row .heading {
+  font-size: var(--footer-heading);
+}
+
+footer .row .content {
+  font-size: var(--footer-content);
+}
+
+/* help center */
+footer .help-center-wrapper {
+  grid-template-columns: 1fr;
+}
+
+footer .help-center-wrapper .heading {
+  font-size: 20px;
+}
+
+footer .help-center-wrapper .content {
+  font-size: 16px;
+}
+
+/* footer content */
+footer .footer-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.5;
+}
+
+footer .footer-content-wrapper .content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* utility */
+footer .footer-utility-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-utility-wrapper .col > * {
+  margin-right: 16px;
+}
+
+footer .footer-utility-wrapper .social-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+footer .footer-utility-wrapper .social-wrapper .footer-social-button {
+  padding: 14px;
+}
+
+footer .footer-utility-wrapper .utility button {
+  padding: 10px 12px;
+}
+
+footer .footer-utility-wrapper .utility button i {
+  padding-right: 12px;
+}
+
+/* app store */
+footer .footer-utility-wrapper .app-store {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-utility-wrapper .app-store img {
+  display: block;
+}
+
+footer .footer-utility-wrapper .app-store .app-store-button {
+  width: 125px;
+}
+
+/* copyright */
+footer .copyright-links-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #afafaf;
+}
+
+footer .copyright-links-wrapper .other-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+footer .copyright-links-wrapper .other-links div {
+  margin-right: 32px;
 }
